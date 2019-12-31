@@ -1,0 +1,58 @@
+#img1{
+animation:myfirst 1s;
+-moz-animation:myfirst 1s; /* Firefox */
+-webkit-animation:myfirst 1s; /* Safari and Chrome */
+-o-animation:myfirst 1s; /* Opera */
+}
+@keyframes myfirst
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+.title,.content{
+    animation:move 2s;
+    -moz-animation:move 2s; /* Firefox */
+    -webkit-animation:move 2s; /* Safari and Chrome */
+    -o-animation:move 2s; /* Opera */
+    }
+    @keyframes move
+    {
+    from {opacity: 0;left: 100px;}
+    to {opacity: 1;left: 0px;}
+    }
+    
+    @-moz-keyframes move /* Firefox */
+    {
+    from {opacity: 0;left: 100px}
+    to {opacity: 1;left: 0px}
+    }
+    
+    @-webkit-keyframes move /* Safari and Chrome */
+    {
+    from {opacity: 0; left: 100px;}
+    to {opacity: 1;left: 0px;}
+    }
+    
+    @-o-keyframes move /* Opera */
+    {
+    from {opacity: 0;left: 100px}
+    to {opacity: 1;left: 0px}
+    }
